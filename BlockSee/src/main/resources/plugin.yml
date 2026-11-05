@@ -1,0 +1,14 @@
+name: BlockSee
+version: '${version}'
+main: dev.blocksee.BlockSeePlugin
+api-version: '26.3'
+description: Click a block to see who placed it.
+commands:
+  block:
+    description: Block inspection commands
+    usage: /block see
+    permission: blocksee.use
+permissions:
+  blocksee.use:
+    description: Allows using /block see
+    default: op
